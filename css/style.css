@@ -138,10 +138,7 @@ body::-webkit-scrollbar-thumb {
   height: 60px;
   margin-top: 40px;
 }
-.sub_bt:hover{
-  color: #ffffff;
-  background-color: #d72a18;
-}
+
 .error_message {
   color: red;
   height: 0;
@@ -152,4 +149,29 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   color: green;
   font-size: 20px;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.btn {
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  flex: 1 0 47%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 75px;
+  gap: 10px;
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
 }
