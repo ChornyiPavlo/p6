@@ -175,3 +175,8 @@ body::-webkit-scrollbar-thumb {
   text-decoration: none;
   color: #FFFFFF;
 }
+@media (max-width: 768px) {
+  .address_text {
+    padding: 5px 0px 5px 30px;
+  }
+}
